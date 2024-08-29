@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 function App() {
-  const ENDPOINT = "http://k8s-backend:8081/products";
+const ENDPOINT = "http://localhost:8081/products";
   const CORSHEADER = {
     "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE",
