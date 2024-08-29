@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 function App() {
-  const ENDPOINT = "http://localhost:8080/products";
+  const ENDPOINT = "http://164.90.252.81:8080/products";
   const CORSHEADER = {
     "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE",
